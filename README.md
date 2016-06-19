@@ -4,12 +4,12 @@ Implementações do padrão de projeto Iterator na linguagem Java. Este conteúd
 
 <h2> AbstractList </h2>
 Abaixo o diagrama de classes relacionado à uma implementação do padrão de projeto Iterator na API Java.
-![iterator-1] (http://imgur.com/yoGclmO)
+![iterator-1] (http://i.imgur.com/yoGclmO)
 Testes de unidade para este iterator podem ser encontrados [aqui] (https://github.com/CarlosPereira27/Iterator/tree/master/src/org/iterator/javateste).
 
 <h2> Coleção </h2>
 Abaixo o diagrama de classes relacionado à uma implementação do padrão de projeto Iterator envolvendo uma coleção. Onde a coleção possui um vetor interno para armazenar os objetos. Dois tipos de Iterator são implementados um que percorre o vetor do elemento localizado no índice 0 até o elemento do último índice e outro que percorre o vetor do elemento localizado no último índice até o elemento do índice 0.
-![iterator-2] (http://imgur.com/CMREi4B)
+![iterator-2] (http://i.imgur.com/CMREi4B)
 A implementação e os testes de unidade deste diagrama podem ser encontrados [aqui] (https://github.com/CarlosPereira27/Iterator/tree/master/src/org/iterator/colecao).
 
 <h2> Árvore Binária </h2>
@@ -26,10 +26,10 @@ Abaixo o diagrama de classes relacionado à uma implementação do padrão de pr
 **percorrer a sua subárvore à esquerda 
 **percorrer a sua subárvore à direita 
 **visita a raiz;
-![iterator-3] (http://imgur.com/Fabb4YY)
+![iterator-3] (http://i.imgur.com/Fabb4YY)
 A implementação e os testes de unidade deste diagrama podem ser encontrados [aqui] (https://github.com/CarlosPereira27/Iterator/tree/master/src/org/iterator/arvore).
 
 <h2> Arquivo </h2>
 Abaixo o diagrama de classes relacionado à uma implementação do padrão de projeto Iterator envolvendo um arquivo. Este iterator é implementado para ir retornando linha por linha do arquivo.
-![iterator-4] (http://imgur.com/sCVkPn5)
+![iterator-4] (http://i.imgur.com/sCVkPn5)
 A implementação e os testes de unidade deste diagrama podem ser encontrados [aqui] (https://github.com/CarlosPereira27/Iterator/tree/master/src/org/iterator/arquivo).
