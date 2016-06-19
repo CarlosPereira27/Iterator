@@ -20,17 +20,17 @@ A implementação e os testes de unidade deste diagrama podem ser encontrados [a
 Abaixo o diagrama de classes relacionado a uma implementação do padrão de projeto Iterator envolvendo uma árvore binária. Foram implementados 3 iterators para a árvore binária, um que percorre a árvore em ordem simétrica (em-ordem, padrão), outro em pré-ordem, e outro em pós-ordem.
 
 1. Pré-ordem:
-..* visita a raiz;
-..* percorrer a sua subárvore à esquerda; 
-..* percorrer a sua subárvore à direita;
+	- visita a raiz
+	- percorrer a sua subárvore à esquerda
+	- percorrer a sua subárvore à direita
 2. Ordem simétrica:
-..* percorrer a sua subárvore à esquerda;
-..* visita a raiz;
-..* percorrer a sua subárvore à direita;
+	- percorrer a sua subárvore à esquerda
+	- visita a raiz
+	- percorrer a sua subárvore à direita
 3. Pós-ordem:
-..* percorrer a sua subárvore à esquerda; 
-..* percorrer a sua subárvore à direita;
-..* visita a raiz;
+	- percorrer a sua subárvore à esquerda 
+	- percorrer a sua subárvore à direita
+	- visita a raiz
 
 ![alt tag](https://github.com/CarlosPereira27/Iterator/blob/master/diagramaDeClasses/IteratorArvore.png)
 
